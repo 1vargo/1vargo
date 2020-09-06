@@ -1,0 +1,44 @@
+.slider-aut{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    height: 380px
+    
+}
+
+.slider-aut ul{
+    display: flex;
+    padding: 0;
+    width: 500%;
+    
+    animation: cambio 20s infinite alternate linear;
+    
+}
+.slider-aut li{
+    width: 100%;
+    list-style: none;
+}
+.slider-aut img{
+    width: 100%;
+    height: 380px;
+    
+}
+
+ @keyframes cambio {
+    0%{margin-left: 0; }
+    16%{margin-left: 0; }
+    
+    21%{margin-left: -100%;}
+    37%{margin-left: -100%;}
+    
+    42%{margin-left: -200%;}
+    58%{margin-left: -200%;}
+     
+    63%{margin-left: -300%;}
+    79%{margin-left: -300%;}
+     
+    84%{margin-left: -400%;}
+    100%{margin-left: -400%;}
+}
+

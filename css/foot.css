@@ -1,0 +1,38 @@
+footer {
+    clear: both;
+    font-family:sans-serif;
+    
+    
+}
+.footer {
+    position: inherit;
+    width: 100%;
+    max-width: 1000px;
+    background: #0F4C75;
+    color:aliceblue;
+    margin: 0px auto;
+    
+}
+.footer h5{
+    display: block;
+    text-align:  center;
+    margin: 10px;
+    font-size: 16px;
+    
+}
+.footer h6{
+    display: block;
+    text-align: center;
+    margin: 0px;
+    font-size: 9px;
+}
+
+.footer p {
+    display: block;
+    text-align: justify;
+    color: white;
+    margin: 0px 30px;
+    font-size: 12px;
+    
+}
+

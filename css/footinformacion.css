@@ -1,0 +1,33 @@
+footer {
+    background:black;
+    color: white;
+    position: relative;
+    display: inline-flex;
+    max-width: 1000px;
+    margin: 0px auto;
+    border-radius: 0 0 20px 20px;
+    font-family:sans-serif;
+    padding: 20px;
+    font-size: 8px;
+    text-align: center;
+    top: 500px;
+       
+}
+footer .columna1{
+    position: relative;
+    display:inline-flex;
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-color: 10px white;
+    height: 60px;
+    font-size: 11px;
+    text-align: justify;
+}
+footer .columna2{
+    position: relative;
+    display: inline-flex;
+    text-align: center;
+    
+
+}

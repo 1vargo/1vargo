@@ -1,0 +1,102 @@
+:root{
+    --colortextos: #494949;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+   
+    
+}
+body{
+   background: #8e9eab; 
+  background: -webkit-linear-gradient(to right, #8e9eab, #eef2f3); 
+  background: #EEEEEE; 
+  font-family: 'Poppins', sans-serif;  
+  font-size: 16px;
+
+}
+
+.productos{
+    position: inherit;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    background: none;
+    margin: 1.5%  auto;
+}
+.productos .list-image{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+          
+}
+.productos .list-image li{
+    margin-right:3%;
+    margin-bottom: 2%;
+    list-style: none;
+   
+}
+.productos .list-image li .productos__image{
+    position: inherit;
+    width: 200px;
+    height: 300px;
+   background: #222831;
+   border-radius: 3px;
+
+}
+.productos .list-image li .productos__image img{
+    position: inherit;
+    width: 90%;
+   margin: 0 5%;
+    height: 80%;
+    border: 2px solid #1B262C;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+      
+}
+.productos .list-image li .productos__image .information__image{
+    position: inherit;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: none;
+    display: flex;
+    align-items: center;
+   
+    
+}
+.productos .list-image li .productos__image .information__image .name__image{
+    font-family: "open sans";
+    font-size: 16px;
+    margin: 5px  5px;
+    color: aliceblue;
+    text-align: justify
+}
+.productos .list-image li .productos__image .information__image .view__moreinfo{
+    position:inherit;
+    top: 3px;
+    display: block;
+    margin: 2px 10px;
+    margin-left: 1px;
+    padding: 0px 5px;
+    height: 25px;
+    line-height: 10px;
+    text-decoration: none;
+    color:aliceblue;
+    font-family:inherit;
+    font-size: 14px;
+    border-radius: 90px;
+    border: 2px solid cornflowerblue;
+    right:10px;
+    text-align: center;
+    background: #1B262C;
+    
+}
+.productos .list-image li .productos__image .information__image .mygalley{
+    position: inherit;
+    width: 200px;
+    
+    
+}
