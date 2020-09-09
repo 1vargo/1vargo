@@ -1,15 +1,15 @@
 <?php
-$destinatario = 'daraujo@coarsm.com';
+$destino = 'vargo.jav@gmail.com';
 
 $nombre = $_POST['nombre'];
 $asunto = $_POST['asunto'];
 $mensaje = $_POST['mensaje'];
 $email = $_POST['email'];
-$contenido = "nombre:" . $nombre . "\nemail: " . $correo . "\nasunto:" . $asunto . "\mensaje:" . $mensaje;
+$contenido = "nombre: " . $nombre . "\nemail: " . $email . "\nasunto: " . $asunto . "\nmensaje: " . $mensaje;
+
+mail($destino,"contacto" ,$contenido);
 
 header("location:index.html");
-
-mail($destinatario, $asunto , $mensajeCompleto,"contacto" ,$contenido);
 
 $header = "eviado desde el sitio web VARGO";
 
